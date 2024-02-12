@@ -1,0 +1,26 @@
+.bo{
+    border:1px solid red;
+    width:250px;
+    height:250px;
+    margin:10px ;
+    padding:10px;
+    justify-content: space-around;
+
+}
+.box1{
+    border:2px solid rgb(241, 225, 225);
+    width:300px;
+    height:400px;
+    margin:10px ;
+    border-radius: 5px;
+   
+  
+}
+.box1 img{
+   
+
+    margin-top:10px ;
+}
+
+
+
