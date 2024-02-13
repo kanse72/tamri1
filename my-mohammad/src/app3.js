@@ -60,16 +60,16 @@ class compnew extends Component {
     render() {
         return (
             <>
-                {/* &and; =  */}
+
                 <DIV on onClick={this.changestate} flag={this.state.flag}>
                     <div>Digital products</div>
                     <DIV3 flag={this.state.flag}>&or;</DIV3>
                 </DIV>
                 <DIV2 flag={this.state.flag} >
-                    <Comp1 pic={Pic1} title="Product_1" baha="230" > محصول ماهی تازه از گوشت ماهی است</Comp1>
-                    <Comp1 pic={Pic2} title="Product_2" baha="410" > asdasdasdasdasdasdasd</Comp1>
-                    <Comp1 pic={Pic3} title="Product_3" baha="32" > asdasdasdasdasdasdasd <hr /> </Comp1>
-                    <Comp1 pic={Pic4} title="Product_4" baha="75" > asdasdasdasdasdasdasd<hr /></Comp1>
+                    <Comp1 pic={Pic1} title="Product_1" baha="230" > محصول از گوشت تازه ماهی</Comp1>
+                    <Comp1 pic={Pic2} title="Product_2" baha="410" > محصول از گوشت تازه ماهی</Comp1>
+                    <Comp1 pic={Pic3} title="Product_3" baha="32" > محصول از گوشت تازه ماهی  </Comp1>
+                    <Comp1 pic={Pic4} title="Product_4" baha="75" > محصول از گوشت تازه ماهی</Comp1>
 
 
                 </DIV2>
